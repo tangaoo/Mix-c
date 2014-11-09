@@ -1,4 +1,5 @@
 dataStr
 =======
 
-some  individual demos for data structure
+some individual demos for data structure
+list 
