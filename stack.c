@@ -19,7 +19,7 @@ void traverseStack(struct stack *pStack);
 int popStack(struct stack *pStack, int *pval);
 int isEmpty(struct stack *pStack);
 
-int main(int argc, const char *argv[])
+int stack_main(int argc, const char *argv[])
 {
 	struct stack stack;	
 	int popval;

@@ -18,7 +18,7 @@ void sort_list(struct gPerson *);
 int insert_list(struct gPerson *, int);
 int delect_list(struct gPerson *, int);
 
-int main(int argc, const char *argv[])
+int phone_main(int argc, const char *argv[])
 {
 	int pos;
 	struct gPerson *pHead = NULL;
