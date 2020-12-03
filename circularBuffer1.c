@@ -1,5 +1,6 @@
 /* This approach adds one bit to end and start pointers */
 #include "circularBuffer1.h"
+#include <stdlib.h>
 
 void cbInit(CircularBuffer *cb, int size) 
 {

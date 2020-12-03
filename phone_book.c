@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
 #include <string.h>
+
+#ifndef __clang__
+#	include<malloc.h>
+#endif
 
 struct gPerson
 {

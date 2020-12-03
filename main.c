@@ -2,10 +2,11 @@
 
 extern int std_out_main(void);
 extern int mod_main(void);
+int thread2_main(void);
 
 int main(void)
 {
     printf("-------------test main\n");
 
-    mod_main();
+    thread2_main();
 }

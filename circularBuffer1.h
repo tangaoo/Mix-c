@@ -4,7 +4,10 @@
 #define __CIRCULAR_BUFFER_H__
 
 #include <stdio.h>
-#include <malloc.h>
+
+#ifndef __clang__
+#	include<malloc.h>
+#endif
 
 typedef int ElemType;  //define for user, such as char,int,struct...
 

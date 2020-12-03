@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<malloc.h>
+
+#ifndef __clang__
+#	include<malloc.h>
+#endif
 
 struct node
 {
