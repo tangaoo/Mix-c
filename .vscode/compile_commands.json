@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/thread.c.o", "thread.c"],
+  "file": "thread.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/hello.c.o", "hello.c"],
+  "file": "hello.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/stack.c.o", "stack.c"],
+  "file": "stack.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/mod.c.o", "mod.c"],
+  "file": "mod.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/system.c.o", "system.c"],
+  "file": "system.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/phone_book.c.o", "phone_book.c"],
+  "file": "phone_book.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/main.c.o", "main.c"],
+  "file": "main.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/circularBuffer1.c.o", "circularBuffer1.c"],
+  "file": "circularBuffer1.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/thread2.c.o", "thread2.c"],
+  "file": "thread2.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/hello_std_out.c.o", "hello_std_out.c"],
+  "file": "hello_std_out.c"
+},
+{
+  "directory": "/Users/yangmengyun/Desktop/codes/mix-c",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "x86_64", "-fvisibility=hidden", "-O3", "-Ittlib.pkg/macosx/x86_64/include/ttlib", "-I/usr/local/include", "-I/usr/include", "-o", "build/.objs/main/macosx/x86_64/release/circularBuffer2.c.o", "circularBuffer2.c"],
+  "file": "circularBuffer2.c"
+}]

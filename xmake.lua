@@ -10,6 +10,13 @@ target("main")
 
     -- add files
     add_files("*.c")
+
+    -- set third party lib
+    add_includedirs("ttlib.pkg/macosx/x86_64/include/ttlib")
+    add_linkdirs("ttlib.pkg/macosx/x86_64/lib/debug")
+    add_links("ttlib")
+
+    -- system lib
     add_links("pthread")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io

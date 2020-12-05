@@ -12,9 +12,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#define _GNU_SOURCE
-#include <getopt.h>
-
 /* //////////////////////////////////////////////////////////////////////////////////////
  * declaration
  */
@@ -31,18 +28,11 @@ tt_int_t main(tt_int_t argc, tt_char_t* argv[])
     if(!tt_lib_init(tt_null, tt_native_allocator())) return -1;
 
     /// trace
-	tt_trace_i("in main \n");
+	tt_trace_i("main");
 
     /// done
-    struct option longopt[] = {
-        {"init", 0, tt_null, 'i'},
-        {"file", 1, tt_null, 'f'},
-        {"list", 0, tt_null, 'l'},
-        {"restart", 0, tt_null, 'r'},
-        {0, 0, 0, 0}
-    };
     tt_int_t opt;
-    while((opt = getopt_long(argc, argv, ":if:lr", longopt, tt_null)) != -1)
+    while((opt = getopt(argc, argv, ":if:lr")) != -1)
     {
         switch(opt)
         {
