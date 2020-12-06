@@ -1,3 +1,5 @@
+-- add packagedir
+add_packagedirs("packages")
 -- add rules: debug/release
 add_rules("mode.debug", "mode.release")
 
@@ -12,9 +14,10 @@ target("main")
     add_files("*.c")
 
     -- set third party lib
-    add_includedirs("ttlib.pkg/macosx/x86_64/include/ttlib")
-    add_linkdirs("ttlib.pkg/macosx/x86_64/lib/debug")
-    add_links("ttlib")
+    -- add_includedirs("ttlib.pkg/macosx/x86_64/include/ttlib")
+    -- add_linkdirs("ttlib.pkg/macosx/x86_64/lib/debug")
+    -- add_links("ttlib")
+	add_packages("ttlib")
 
     -- system lib
     add_links("pthread")
