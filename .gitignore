@@ -3,4 +3,4 @@ build/
 .xmake/
 .vscode/
 
-others/!*.c
+others/
