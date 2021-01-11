@@ -41,7 +41,5 @@ int main(void)
         close(client_sockfd);
     }
 
-
-
     return 0;
 }
